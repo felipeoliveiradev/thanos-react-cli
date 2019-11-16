@@ -2,22 +2,19 @@
 
 A CLI for thanos.
 
-## Customizing your CLI
+## Link Repository Git
 
-Check out the documentation at https://github.com/infinitered/gluegun/tree/master/docs.
+https://github.com/felipeoliveiradev/thanos-react-cli.git.
 
-## Publishing to NPM
+## Commands
 
-To package your CLI up for NPM, do this:
+thanos init name-project
 
-```shell
-$ npm login
-$ npm whoami
-$ npm lint
-$ npm test
-(if typescript, run `npm run build` here)
-$ npm publish
-```
+thanos generate:component name-component
+thanos generate:page name-component
+
+thanos rm:component name-component
+thanos rm:page name-component
 
 # License
 

@@ -2,7 +2,7 @@
   "name": "thanos-react-cli",
   "package name" : "thanos-react-cli",
   "git repository" : "https://github.com/felipeoliveiradev/thanos-cli.git", 
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "thanos CLI",
   "bin": {
     "thanos": "bin/thanos"
@@ -28,7 +28,7 @@
     "docs",
     "bin"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "typescript": "3.2.2",
     "ts-node": "^7.0.1",
